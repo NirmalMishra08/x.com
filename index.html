@@ -12,48 +12,59 @@
 
 <body class="bg-black text-white">
   <div class="flex container mx-auto ">
-    <div class="first  w-1/4 flex flex-col  mt-2 gap-4">
+    <div class="first  w-1/4 flex flex-col  mt-2 gap-4 ">
       <div class="logo  invert  flex "><img class="w-[70px]"
           src="https://imgs.search.brave.com/4bK_XbAHdDIfmzTKtEy2f1CA2QpQmCOJXs-sq8S3hjI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzA2/L1R3aXR0ZXItTG9n/by01MDB4MjgxLmpw/Zw"
           alt=""></div>
-      <div class="sidebar">
+      <div class="sidebar sticky">
 
         <ul class=" flex flex-col text-xl  font-bold">
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
             <span class="material-symbols-outlined">
               Home
-            </span>Home</li>
+            </span>Home
+          </li>
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
-            <span class="material-symbols-outlined">Explore</span>Explore</li>
+            <span class="material-symbols-outlined">Explore</span>Explore
+          </li>
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
-            <span class="material-symbols-outlined">Notifications</span>Notification</li>
+            <span class="material-symbols-outlined">Notifications</span>Notification
+          </li>
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
-            <span class="material-symbols-outlined">message</span>Messages</li>
+            <span class="material-symbols-outlined">message</span>Messages
+          </li>
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
-            <span class="material-symbols-outlined">apps</span>Grok</li>
+            <span class="material-symbols-outlined">apps</span>Grok
+          </li>
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
-            <span class="material-symbols-outlined">Bookmarks</span>Bookmarks</li>
+            <span class="material-symbols-outlined">Bookmarks</span>Bookmarks
+          </li>
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
-            <span class="material-symbols-outlined">Communities</span>Communities</li>
+            <span class="material-symbols-outlined">Communities</span>Communities
+          </li>
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
-            <span class="material-symbols-outlined">close</span>Premium</li>
+            <span class="material-symbols-outlined">close</span>Premium
+          </li>
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
-            <span class="material-symbols-outlined">Bolt</span>Verified Orgs</li>
+            <span class="material-symbols-outlined">Bolt</span>Verified Orgs
+          </li>
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
-            <span class="material-symbols-outlined">person</span>Profile</li>
+            <span class="material-symbols-outlined">person</span>Profile
+          </li>
           <li
             class="flex justify-start items-center gap-3 px-5 py-3  hover:bg-gray-900 hover:rounded-full  hover:cursor-pointer w-fit">
-            <span class="material-symbols-outlined">More</span>More</li>
+            <span class="material-symbols-outlined">More</span>More
+          </li>
         </ul>
       </div>
       <div class="button"><Button
@@ -73,7 +84,158 @@
           </span></div>
       </div>
     </div>
-    <div class="second w-1/2 border-[1px] border-x-white border-y-black"></div>
+
+
+
+    <div class="second w-1/2 border-[1px] border-x-white border-y-black">
+
+      <div class="top flex p-3 relative">
+        <div class=" absolute  w-[50px] h-1 rounded-full bg-blue-500 bottom-0 left-[22%] z-10"> </div>
+        <div class="left w-1/2 flex justify-center font-bold text-lg">For You</div>
+        <div class="right  w-1/2 flex justify-center font-bold text-lg">Following</div>
+
+      </div>
+      <div class="h-[1px] w-full bg-gray-800 "></div>
+
+      <div class="whatshapp m-3 flex flex-row">
+        <div class="img w-12 ">
+          <img class="rounded-full " src="https://pbs.twimg.com/profile_images/1755996606036615168/djFJMnr0_bigger.jpg"
+            alt="">
+        </div>
+        <div class="cont flex flex-col text-white ">
+          <input class=" bg-black w-full outline-none mx-3 text-xl my-4 h-7" type="text"
+            placeholder="What is Happening?!">
+          <div class="flex  justify-between gap-[250px]">
+            <div class="icons mx-3 text-blue-500 flex space-x-3">
+              <span class="material-symbols-outlined">image</span>
+              <span class="material-symbols-outlined">
+                GIF_box
+              </span>
+              <span class="material-symbols-outlined">where_to_vote</span>
+              <span class="material-symbols-outlined">mood</span>
+              <span class="material-symbols-outlined">pending_actions</span>
+              <span class="material-symbols-outlined">
+                location_on
+              </span>
+            </div>
+            <div class="postbtn"><button class="bg-blue-600 text-white w-16 h-10 rounded-full">Post</button></div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="line w-[100%] h-[1px] bg-slate-600"></div>
+
+      <div class="posts">
+        <div class="post flex flex-row">
+
+          <div class="img m-4 w-20">
+            <img class="rounded-full" src="https://pbs.twimg.com/profile_images/1755996606036615168/djFJMnr0_bigger.jpg"
+              alt="">
+          </div>
+          <div class="content flex flex-col my-2 justify-center">
+            <div class="lines">
+              <span class="font-bold  hover:underline cursor-pointer"> Times Algebra</span>
+              <span class="text-gray-400"> @TimesAlgebraIND · 20h </span>
+            </div>
+            <div class="text-[15px]">BIG NEWS 🚨 Muslim Nation UAE deports university student who yelled 'Free
+              Palestine' slogans at Graduation ceremony 🔥🔥
+            </div>
+            <div class="posting w-[95%] m-4 ml-0 ">
+              <img class="rounded-2xl" src="https://pbs.twimg.com/media/GSJbJBDboAAqSAn?format=jpg&name=medium" alt="">
+            </div>
+            <div class="allicons flex justify-around text-gray-500">
+              <div class="icons flex hover:text-blue-500 ">
+                <span class="material-symbols-outlined">
+                  chat
+                </span>1K
+              </div>
+              <div class="icons flex hover:text-blue-500 ">
+                <span class="material-symbols-outlined">
+                  repeat
+                </span>2K
+              </div>
+              <div class="icons flex  hover:text-pink-600">
+                <span class="material-symbols-outlined ">
+                  favorite
+                </span>3K
+              </div>
+              <div class="icons flex  hover:text-blue-500">
+                <span class="material-symbols-outlined">
+                  bar_chart
+                </span>4K
+              </div>
+              <div class="icons flex items-center hover:text-blue-500 ">
+                <span class="material-symbols-outlined">
+                  ios_share
+                </span>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="line w-[100%] h-[1px] bg-slate-700"></div>
+
+      <div class="posts">
+        <div class="post flex flex-row">
+
+          <div class="img m-4 w-20">
+            <img class="rounded-full" src="https://pbs.twimg.com/profile_images/1755996606036615168/djFJMnr0_bigger.jpg"
+              alt="">
+          </div>
+          <div class="content flex flex-col my-2 justify-center ">
+            <div class="lines">
+              <span class="font-bold  hover:underline cursor-pointer"> Times Algebra</span>
+              <span class="text-gray-400"> @TimesAlgebraIND · 20h </span>
+            </div>
+            <div class="text-[15px]">BIG NEWS 🚨 CBI in its chargesheet states that Kerala Cop falsely implicated Great ISRO scientist Nambi Narayanan in fake espionage case of 1994.
+            </div>
+            <div class="posting w-[95%] m-4 ml-0 ">
+              <img class="rounded-2xl" src="https://pbs.twimg.com/media/GSM6YuxW0AAxWY4?format=jpg&name=900x900" alt="">
+            </div>
+            <div class="allicons flex justify-around">
+              <div class="icons flex hover:text-blue-500 ">
+                <span class="material-symbols-outlined">
+                  chat
+                </span>1K
+              </div>
+              <div class="icons flex hover:text-blue-500 ">
+                <span class="material-symbols-outlined">
+                  repeat
+                </span>2K
+              </div>
+              <div class="icons flex  hover:text-pink-600">
+                <span class="material-symbols-outlined ">
+                  favorite
+                </span>3K
+              </div>
+              <div class="icons flex  hover:text-blue-500">
+                <span class="material-symbols-outlined">
+                  bar_chart
+                </span>4K
+              </div>
+              <div class="icons flex items-center hover:text-blue-500 ">
+                <span class="material-symbols-outlined">
+                  ios_share
+                </span>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+
     <div class="third  w-1/4 m-3">
       <div class="search">
         <input type="text" placeholder="Search" class="w-[350px] rounded-full bg-gray-900 text-white px-4 py-2">
@@ -97,13 +259,13 @@
           <div class="font-bold">#Orry</div>
           <div class="text-sm text-gray-300">40.2K posts</div>
         </div>
-         <div class="item  p-3 hover:bg-gray-800 cursor-pointer px-3  ">
+        <div class="item  p-3 hover:bg-gray-800 cursor-pointer px-3  ">
           <div class=" text-sm text-gray-300 "> Trending in India</div>
           <div class="font-bold">#Orry</div>
           <div class="text-sm text-gray-300">40.2K posts</div>
         </div>
       </div>
-      
+
 
     </div>
   </div>
